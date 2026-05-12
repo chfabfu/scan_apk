@@ -1,0 +1,13 @@
+buildscript {
+    repositories {
+        maven { url 'https://mirrors.cloud.tencent.com/nexus/repository/maven-public/' }
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/public' }
+        google()
+        mavenCentral()
+    }
+}
+
+plugins {
+    id 'com.android.application' version '8.1.0' apply false
+}
